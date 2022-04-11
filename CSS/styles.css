@@ -1,23 +1,35 @@
 body { 
     background-color: darkgreen;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*navigation div */
+.top-div {
+background-color: lightseagreen; 
+height: 100vw;
+width: 300px;
+}
+
+.flex { 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .div1 {
-background-color: lightseagreen; 
-height: 15px
-width: 15px
+    background-color: grey;
+    height: 300px;
+    width: 50vw;
 }
 
-.div2 { 
-background-color: grey;
-height: 15px;
-width: 15px;
-}
-
-.div3 {
+.div2 {
     background-color: khaki;
-    
+    height: 300px;
+    width: 50vw;
 }
+
+.footer div {
+    background-color: darkolivegreen;
+    height: 100vw;
+    width: 250px;
