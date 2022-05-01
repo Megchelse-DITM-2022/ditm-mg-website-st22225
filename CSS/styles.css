@@ -11,6 +11,18 @@ height: 100vw;
 width: 300px;
 }
 
+.top-div ul {
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+}
+
+.top-div ul li {
+ list-style-type: none;
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+
 .flex { 
     display: flex;
     align-items: center;
