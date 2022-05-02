@@ -22,6 +22,18 @@ width: 300px;
  display: inline-block;
  margin: 2%;
  font-style: normal;
+}
+
+.top-div ul li a{ 
+ text-decoration: none;
+ color: black;
+ transition: 0.3s ease 0s;
+}
+
+.top-div ul li a:hover { 
+ color: blue;
+ text-decoration: underline;
+}
 
 .flex { 
     display: flex;
