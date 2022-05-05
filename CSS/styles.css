@@ -59,6 +59,17 @@ body {
     width: 50vw;
 }
 
+.div2 h1 {
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+
+.div2 h1 { 
+ text-decoration: none;
+ color: teal;
+}
+
 .footer div {
     background-color: darkolivegreen;
     height: 15.5vw;
