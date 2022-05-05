@@ -64,3 +64,34 @@ width: 300px;
     height: 100vw;
     width: 200vw;
 }
+
+/*navigation div */
+.top-div {
+    background-color: lightseagreen; 
+    height: 100vw;
+    width: 300px;
+    }
+    
+    .top-div ul {
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
+    }
+    
+    .top-div ul li {
+     list-style-type: none;
+     display: inline-block;
+     margin: 2%;
+     font-style: normal;
+    }
+    
+    .top-div ul li a{ 
+     text-decoration: none;
+     color:cornsilk;
+     transition: 0.3s ease 0s;
+    }
+    
+    .top-div ul li a:hover { 
+     color: blue;
+     text-decoration: underline;
+    }
