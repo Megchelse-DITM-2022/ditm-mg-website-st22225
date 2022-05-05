@@ -67,6 +67,28 @@ body {
 
 .div2 h1 { 
  text-decoration: none;
+ color:darkgreen
+}
+
+.div2 h2 {
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+   
+.div2 h2 { 
+ text-decoration: none;
+ color: rgb(0, 83, 83);
+}
+
+.div2 p {
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+   
+.div2 p { 
+ text-decoration: none;
  color: teal;
 }
 
