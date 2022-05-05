@@ -66,32 +66,32 @@ width: 300px;
 }
 
 /*navigation div */
-.top-div {
-    background-color: lightseagreen; 
+.secondtop-div {
+    background-color:oldlace; 
     height: 100vw;
     width: 300px;
     }
     
-    .top-div ul {
+    .secondtop-div ul {
      display: flex; 
-     align-items: center; 
-     justify-content: center; 
+     align-items:baseline; 
+     justify-content:baseline; 
     }
     
-    .top-div ul li {
+    .secondtop-div ul li {
      list-style-type: none;
      display: inline-block;
      margin: 2%;
      font-style: normal;
     }
     
-    .top-div ul li a{ 
+    .secondtop-div ul li a{ 
      text-decoration: none;
-     color:cornsilk;
+     color:limegreen;
      transition: 0.3s ease 0s;
     }
     
-    .top-div ul li a:hover { 
-     color: blue;
+    .secondtop-div ul li a:hover { 
+     color:green;
      text-decoration: underline;
     }
