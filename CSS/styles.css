@@ -35,6 +35,37 @@ body {
  text-decoration: underline;
 }
 
+/*navigation div Page2.html*/
+.secondtop-div {
+ background-color:oldlace; 
+ height: 100vw;
+ width: 300px;
+}
+     
+.secondtop-div ul {
+ display: flex; 
+ align-items:baseline; 
+ justify-content:baseline; 
+}
+    
+.secondtop-div ul li {
+ list-style-type: none;
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+     
+.secondtop-div ul li a{ 
+ text-decoration: none;
+ color:limegreen;
+ transition: 0.3s ease 0s;
+}
+       
+.secondtop-div ul li a:hover { 
+ color:green;
+ text-decoration: underline;
+}
+
 /* Body Divs*/
 .flex { 
     display: flex;
@@ -93,39 +124,7 @@ body {
 }
 
 .footer div {
-    background-color: darkolivegreen;
-    height: 15.5vw;
-    width: 200vw;
+ background-color: darkolivegreen;
+ height: 15.5vw;
+ width: 200vw;
 }
-
-/*navigation div */
-.secondtop-div {
- background-color:oldlace; 
- height: 100vw;
- width: 300px;
-}
-    
-.secondtop-div ul {
- display: flex; 
- align-items:baseline; 
- justify-content:baseline; 
-}
-    
-.secondtop-div ul li {
- list-style-type: none;
- display: inline-block;
- margin: 2%;
- font-style: normal;
-}
-    
-.secondtop-div ul li a{ 
- text-decoration: none;
- color:limegreen;
- transition: 0.3s ease 0s;
-}
-    
-.secondtop-div ul li a:hover { 
- color:green;
- text-decoration: underline;
-}
-
