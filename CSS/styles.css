@@ -28,6 +28,9 @@ body {
  text-decoration: none;
  color:cornsilk;
  transition: 0.3s ease 0s;
+ text-shadow: 5px 5px;
+ box-shadow: 7px 7px 10px;color: greenyellow;
+ text-decoration: dotted;
 }
 
 .top-div ul li a:hover { 
