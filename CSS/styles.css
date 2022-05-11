@@ -1,0 +1,184 @@
+body { 
+ background-color: darkgreen;
+ margin: 0px;
+ padding: 0px;
+}
+
+/*navigation div Index */
+.top-div {
+ background-color: lightseagreen; 
+ height: 16.5vw;
+ width: 100vw;
+}
+
+.top-div ul {
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+}
+
+.top-div ul li {
+ list-style-type: none;
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+
+.top-div ul li a{ 
+ text-decoration: none;
+ color:cornsilk;
+ transition: 0.3s ease 0s;
+ text-shadow: 5px 5px;
+ box-shadow: 7px 7px 10px 0;color: rgba(172, 255, 47, 0.877), 0px 6px 30px 0px cornflowerblue; 
+ text-decoration: dotted;
+}
+
+.top-div ul li a:hover { 
+ color: green;
+ text-decoration: underline;
+}
+
+/*navigation div Page2.html*/
+.secondtop-div {
+ background-color:oldlace; 
+ height: 100vw;
+ width: 300px;
+}
+     
+.secondtop-div ul {
+ display: flex; 
+ align-items:baseline; 
+ justify-content:baseline; 
+}
+    
+.secondtop-div ul li {
+ list-style-type: none;
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+     
+.secondtop-div ul li a{ 
+ text-decoration: none;
+ color:limegreen;
+ transition: 0.3s ease 0s;
+}
+       
+.secondtop-div ul li a:hover { 
+ color:green;
+ text-decoration: underline;
+}
+
+/* Body Divs*/
+.flex { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    background-color:palegreen;
+    height: 300px;
+    width: 50vw;
+}
+
+.div1 > img { 
+    max-width: 30rem;
+    max-height: 19.02rem;
+}
+
+.div2 {
+    background-color: bisque;
+    height: 300px;
+    width: 50vw;
+}
+
+.footer div {
+ background-color:greenyellow;
+ height: 15.5vw;
+ width: 100vw;
+}
+
+.div2 h1 {
+ color: darkgreen;
+ font-family: fantasy;
+ margin: 2%;
+}
+
+.div2 h2 {
+ color: forestgreen;
+ margin: 1.5%;
+}
+
+.div2 p {
+ color: darkcyan;
+ margin: 1.5%;
+} 
+
+/* -- FORM CODE CSS-- */
+.form {
+ margin-top: 20rem;
+ width: 90%;
+ display: flex;
+ background-color: gainsboro;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 100px;
+}
+    
+.EVC__Form-Container__Left {
+ width: 50%;
+}
+    
+.EVC__Form-Container__Left h2 {
+ text-align: center;
+ font-size: 4rem;
+ color: cornsilk;
+}
+    
+.EVC__Form-Container__Left #FirstName,
+.EVC__Form-Container__Left #LastName,
+.EVC__Form-Container__Left #email,
+.EVC__Form-Container__Left #YearLevel {
+ padding: 1rem;
+ width: 100%;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ border-bottom: 2px #000 solid;
+ margin-top: 1rem;
+ height: 1.5rem;
+ border-radius: 3px;
+ background-color: transparent;
+ color: #000;
+}
+    
+.EVC__Form-Container__Left #FirstName::placeholder,
+.EVC__Form-Container__Left #LastName::placeholder,
+.EVC__Form-Container__Left #email::placeholder,
+.EVC__Form-Container__Left #YearLevel::placeholder {
+ color: #000;
+}
+    
+.EVC__Form-Container__Left #submit {
+ width: 80%;
+ height: 2rem;
+ color: #000;
+ background-color: transparent;
+ border: 2px #000 solid;
+ margin-left: 10%;
+ margin-top: 1rem;
+ transition: all 0.3s ease 0s;
+}
+
+.EVC__Form-Container__Left #submit:hover {
+ opacity: 0.5;
+ cursor: pointer;
+}
+
+.video {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+}
